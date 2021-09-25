@@ -1,0 +1,105 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: #f5ba13;
+  color: black;
+  padding: 16px 32px;
+  /* box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3); */
+}
+
+header h1 {
+  color: rgb(43, 39, 27);
+  font-family: "McLaren", cursive;
+  font-weight: 800;
+  padding: 8px;
+}
+
+header p {
+  color: rgb(43, 39, 27);
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+  padding: 8px;
+}
+
+footer {
+  background-color: #f5ba13;
+  text-align: center;
+  left: 0;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+  overflow: hidden;
+  height: 2.5rem;
+}
+
+footer p {
+  color: rgb(66, 56, 24);
+  font-family: "McLaren", cursive;
+}
+
+.SignInButton {
+  margin: 16px auto;
+  display: block;
+}
+
+.roomText {
+  font-family: "McLaren", cursive;
+  margin: 16px auto;
+  text-align: center;
+  display: block;
+}
+
+.roomInput {
+  font-family: "McLaren", cursive;
+  margin: 16px 30%;
+  text-align: center;
+  display: block;
+}
+
+.centerButtons {
+  text-align: center;
+}
+
+.combined {
+  width: 100%;
+  overflow: hidden;
+}
+.player {
+  display: inline-block;
+  margin: 16px;
+  width: 40%;
+}
+
+.textMessages {
+  font-family: "McLaren", cursive;
+  display: inline-block;
+  margin: 16px;
+  height: 50px;
+  width: 50%;
+}
+
+img {
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+}
+
+.sent {
+  background-color: #c25812;
+
+  margin: 16px;
+  word-wrap: break-word;
+  padding: 8px;
+  border-radius: 20px;
+}
+
+.recieved {
+  background-color: #f5ba13;
+  margin: 16px;
+  word-wrap: break-word;
+  padding: 8px;
+  border-radius: 20px;
+}
